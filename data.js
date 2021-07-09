@@ -1,13 +1,15 @@
 export const questions = [
     {
       id: '1',
-      name: 'Luke Skywalker',
-      height: '172',
-      mass: '77',
-      hair_color: 'blond',
-      skin_color: 'fair',
-      eye_color: 'blue',
-      gender: 'male',
+      question: 'What is the highest Mountain on earth?',
+      answer1: 'Mount Everest',
+      answer2: 'K2',
+      answer3: 'Zugspitze',
+      answer4: 'Lhotse',
+      solution: 1,
+      category: 'general',
+      imageUrl: 'none',
+      subject: 'Mount Everest',
     },
     {
       id: '2',
