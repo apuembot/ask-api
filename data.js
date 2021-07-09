@@ -1,4 +1,4 @@
-export const people = [
+export const questions = [
     {
       id: '1',
       name: 'Luke Skywalker',
