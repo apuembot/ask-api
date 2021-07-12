@@ -5,7 +5,8 @@ export default function questionHandler({ query: { category }, }, res) {
 
   // User with id exists
   if (filtered.length > 0) {
-    res.status(200).json(filtered[0])
+    var randomQuestionId = Math.floor((Math.random() * filtered.length) + 1);
+    res.status(200).json(filtered[randomQuestionId])
   } else {
     res.status(404).json({ message: `Category with name: ${category} not found.` })
   }
