@@ -32,8 +32,8 @@ export const questions = [
       answer4: 'George Washington',
       solution: 4,
       category: 'general',
-      imageUrl: 'https://cdn.jsdelivr.net/gh/a-static/ask/2nd-world-war.jpg',
-      subject: '2nd world war',
+      imageUrl: 'none',
+      subject: 'first president of the United States',
   },
     {
       id: '4',
