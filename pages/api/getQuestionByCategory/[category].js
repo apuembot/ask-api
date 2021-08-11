@@ -1,6 +1,12 @@
 import { questions } from '../../../data'
 
 export default function questionHandler({ query: { category }, }, res) {
+
+  if (category === "general") {
+    var randomQuestionId = Math.floor((Math.random() * questions.length) + 0);
+    res.status(200).json(questions[randomQuestionId])
+  }
+
   const filtered = questions.filter((p) => p.category === category)
 
   // User with id exists
