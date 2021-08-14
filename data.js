@@ -35,5 +35,16 @@ export const questions = [
     imageUrl: "none",
     subject: "first president of the United States",
   },
-  { id: "4" },
+  {
+    id: "4",
+    question: "Who was the first president of the USA?",
+    answer1: "Franklin D. Roosevelt",
+    answer2: "John F. Kennedy",
+    answer3: "John Tyler",
+    answer4: "George Washington",
+    solution: 4,
+    category: "advanced-sport",
+    imageUrl: "none",
+    subject: "first president of the United States",
+  },
 ];
