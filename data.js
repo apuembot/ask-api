@@ -142,5 +142,5 @@ export const questions = [
     category: "general",
     imageUrl: "none",
     subject: "length of Olympic swimming pool",
-  },
+  }
 ];
