@@ -114,7 +114,7 @@ export const questions = [
     answer2: "25m",
     answer3: "45m",
     answer4: "50m",
-    solution: 2,
+    solution: 4,
     category: "general",
     imageUrl: "none",
     subject: "length of Olympic swimming pool",
